@@ -1,0 +1,200 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins', sans-serif;
+}
+
+body {
+  background:#ffffff;
+  color:#333;
+}
+
+h1,h2,h3 {
+  font-family:'Playfair Display', serif;
+}
+
+/* HERO */
+.hero {
+  height:90vh;
+  background:
+  linear-gradient(rgba(128,0,32,0.8), rgba(128,0,32,0.5)),
+  url('cover\ hero.jpg') center/cover no-repeat;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  color:white;
+  padding:20px;
+}
+
+.hero h1 {
+  font-size:48px;
+  margin-bottom:15px;
+}
+
+.logo-wrapper {
+  text-align:center;
+  margin-top:-60px;
+}
+
+.logo-wrapper img {
+  width:150px;
+  background:white;
+  padding:15px;
+  border-radius:50%;
+  box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* ABOUT */
+.about-section {
+  padding:80px 10%;
+}
+
+.about-card {
+  display:flex;
+  flex-wrap:wrap;
+  background:white;
+  box-shadow:0 10px 30px rgba(0,0,0,0.1);
+  border-radius:15px;
+  overflow:hidden;
+}
+
+.about-card img {
+  width:100%;
+  max-width:400px;
+  object-fit:cover;
+}
+
+.about-content {
+  padding:40px;
+  flex:1;
+}
+
+.about-content h2 {
+  color:#800020;
+  margin-bottom:20px;
+}
+
+.btn-maroon {
+  display:inline-block;
+  margin-top:20px;
+  padding:12px 25px;
+  background:#800020;
+  color:white;
+  text-decoration:none;
+  border-radius:30px;
+  transition:0.3s;
+}
+
+.btn-maroon:hover {
+  background:#a0002d;
+}
+
+/* EVENT WRAPPER */
+.event-wrapper {
+  padding: 80px 10%;
+  background: #f8f8f8;
+}
+
+.event-card {
+  background: white;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.event-card h2 {
+  color: #800020;
+  margin-bottom: 40px;
+}
+
+/* MODERN CAROUSEL */
+.modern-carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+
+.carousel-item {
+  min-width: 100%;
+  padding: 0 20px;
+}
+
+.carousel-item img {
+  width: 100%;
+  max-width: 750px;   /* diperbesar */
+  height: auto;
+  border-radius: 20px;
+  margin: 0 auto 25px auto;
+  display: block;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.carousel-content h3 {
+  color: #800020;
+  margin-bottom: 10px;
+}
+
+/* DOTS */
+.carousel-dots {
+  margin-top: 20px;
+}
+
+.carousel-dots span {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0 6px;
+  background: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.carousel-dots span.active {
+  background: #800020;
+  transform: scale(1.2);
+}
+
+
+/* CONTACT */
+.contact-section {
+  padding:80px 10%;
+  text-align:center;
+}
+
+/* FOOTER */
+footer {
+  background:#111;
+  color:white;
+  text-align:center;
+  padding:30px 10%;
+}
+
+.social-media a {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 20px;   /* kecilkan ukuran icon */
+  color: white;
+  background: #800020;
+  width: 40px;       /* kecilkan lingkaran */
+  height: 40px;
+  line-height: 40px; /* harus sama dengan height */
+  border-radius: 50%;
+  transition: 0.3s ease;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+}
+
+.copyright {
+  margin-top: 25px; /* kasih jarak dari logo sosial media */
+  font-size: 14px;
+  color: #ffffff;
+}
+
+
